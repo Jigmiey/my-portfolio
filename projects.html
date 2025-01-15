@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Jigme Tsering</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 class="name">JIGME TSERING</h1>
+            <ul>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="Resume_Jigme.pdf" target="_blank">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="gallery.html#hobbies">Hobbies & Inspirations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <a href="https://github.com/Jigmiey/CLOCs" target="_blank">
+                <h3>3D Object Detection with Multimodal Fusion</h3>
+            </a>
+            <p>This project focused on improving 3D object detection by combining camera images and LiDAR point clouds. Extensive testing was conducted using detectors like Cascade RCNN and Voxel-RCNN on the KITTI dataset.</p>
+            <img src="voxel-cascadercnn.png" alt="Project Thumbnail">
+        </div>
+
+        <div class="project">
+            <a href="https://github.com/Jigmiey/Sentiment-Computation-of-War-Tweets" target="_blank">
+                <h3>Sentiment Analysis of Social Media Posts on Russia-Ukraine War</h3>
+            </a>
+            <p>This project focuses on analyzing public sentiment toward Ukraine in the context of the ongoing Russia-Ukraine war using social media posts. By scraping tweets with relevant hashtags such as #UkraineWar and #RussiaWar, the data is cleaned and processed to prepare it for sentiment analysis. Several machine learning models, including Logistic Regression, Decision Trees, SVM, Random Forest, and XGBoost, are used to classify the sentiment of the tweets, with pretrained models like AWS and Bard also applied to enhance accuracy.</p>
+            <img src="graph.png" alt="Project Thumbnail">
+        </div>
+
+        <div class="project">
+            <h3>Motion Planning with Deep Reinforcement Learning</h3>
+            <p>Implemented PPO, SAC, DQN, and DDPG algorithms for autonomous navigation in a corridor environment using a quadcopter. Environments were created using Unreal Engine and Microsoft AirSim.</p>
+            <video width="100%" controls autoplay muted>
+                <source src="media1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section id="contact">
+        <ul class="contact-list">
+            <li><a href="https://www.linkedin.com/in/jigme-tsering-2a2194162/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Jigmiey" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/your_instagram_username" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jigme Tsering. All rights reserved.</p>
+    </footer>
+</body>
+</html>
